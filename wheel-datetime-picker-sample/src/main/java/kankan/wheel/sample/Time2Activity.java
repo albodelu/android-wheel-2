@@ -1,4 +1,4 @@
-package kankan.wheel.demo;
+package kankan.wheel.sample;
 
 import android.app.Activity;
 import android.os.Bundle;

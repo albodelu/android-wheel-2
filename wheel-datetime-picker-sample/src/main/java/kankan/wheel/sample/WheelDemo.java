@@ -1,4 +1,4 @@
-package kankan.wheel.demo;
+package kankan.wheel.sample;
 
 import android.app.ListActivity;
 import android.content.Intent;

@@ -5,7 +5,6 @@ android {
     buildToolsVersion = "19.0.1"
 }
 
-
 dependencies {
     compile project(':wheel-datetime-picker')
 }

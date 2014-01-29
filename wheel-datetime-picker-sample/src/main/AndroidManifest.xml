@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="kankan.wheel.demo">
+          package="kankan.wheel.sample">
 
-    <application android:icon="@drawable/ic_launcer" android:label="WheelDemo">
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="WheelDemo">
 
-        <activity android:name="kankan.wheel.demo.WheelDemo">
+        <activity android:name="kankan.wheel.sample.WheelDemo">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="kankan.wheel.demo.Time2Activity" android:label="Time 2">
+        <activity
+            android:name="kankan.wheel.sample.Time2Activity"
+            android:label="Time 2">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"/>
                 <category android:name="kankan.wheel.WHEEL_SAMPLE"/>
             </intent-filter>
         </activity>
