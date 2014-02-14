@@ -5,3 +5,4 @@
 # Android files
 local.properties
 **/build/
+.gradle/

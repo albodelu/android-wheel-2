@@ -1,2 +1,1 @@
-include ':wheel-datetime-picker'
-include ':wheel-datetime-picker-sample'
+include 'datetime-picker', 'datetime-picker-sample'
