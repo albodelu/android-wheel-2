@@ -1,11 +1,9 @@
 apply plugin: 'android-library'
 apply plugin: 'android-maven'
 
-group = 'kankan.wheel'
-version = '0.1'
-
 android {
     compileSdkVersion 19
     buildToolsVersion = "19.0.1"
 }
 
+apply from: 'https://raw2.github.com/chrisbanes/gradle-mvn-push/dev/gradle-mvn-push.gradle'
