@@ -1,9 +1,9 @@
-apply plugin: 'android-library'
-apply plugin: 'android-maven'
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
 
 android {
     compileSdkVersion 19
-    buildToolsVersion = "19.0.1"
+    buildToolsVersion = "19.1.0"
 }
 
-apply from: 'https://raw2.github.com/chrisbanes/gradle-mvn-push/dev/gradle-mvn-push.gradle'
+apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
